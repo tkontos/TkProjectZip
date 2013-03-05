@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{edf21c57-832c-4744-8abd-541671cc37e9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{43382175-7aa8-4d83-8246-1d1e9a6c592e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f74a4cc2-d903-4af3-9f69-73d41c2c5845}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="ZipUnzip">
+      <UniqueIdentifier>{683dbb03-2c29-4f7d-957c-28238e19f88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipUnzip\ZLib">
+      <UniqueIdentifier>{ff7ec229-eff8-4063-9c76-557d36dd69fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TkProjectZip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\ioapi.c">
+      <Filter>ZipUnzip</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\iowin32.c">
+      <Filter>ZipUnzip</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\mztools.c">
+      <Filter>ZipUnzip</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\unzip.c">
+      <Filter>ZipUnzip</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Unzipper.cpp">
+      <Filter>ZipUnzip</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\zip.c">
+      <Filter>ZipUnzip</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zipper.cpp">
+      <Filter>ZipUnzip</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\adler32.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\compress.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\crc32.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\deflate.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\gzio.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\infblock.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\infcodes.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\inffast.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\inflate.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\inftrees.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\infutil.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\minigzip.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\trees.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\uncompr.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUnzip\Zlib\zutil.c">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="VcprojFileHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompilerBug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjZipSettingsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TkSpinHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\crypt.h">
+      <Filter>ZipUnzip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\ioapi.h">
+      <Filter>ZipUnzip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\iowin32.h">
+      <Filter>ZipUnzip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\mztools.h">
+      <Filter>ZipUnzip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\unzip.h">
+      <Filter>ZipUnzip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Unzipper.h">
+      <Filter>ZipUnzip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\zip.h">
+      <Filter>ZipUnzip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zipper.h">
+      <Filter>ZipUnzip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\deflate.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\infblock.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\infcodes.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\inffast.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\inffixed.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\inftrees.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\infutil.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\IOAPI.H">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\IOWIN32.H">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\trees.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\UNZIP.H">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\zconf.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\ZIP.H">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\zlib.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUnzip\Zlib\zutil.h">
+      <Filter>ZipUnzip\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="VcprojFileHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rsettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjZipSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjZipSettingsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MruCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamingException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TkSpinHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TkProjectZip.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TkProjectZip.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
